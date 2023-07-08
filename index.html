@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Color app by kamal sir</title>
+	<style>
+		*{font-size:50px;}
+		body{background-color:azure;}
+	</style>
+</head>
+<body>
+<center>
+	<h1>Holi Hain...</h1>
+	<script>
+	function colorme()
+	{
+		let colors=["red","green","blue","purple","gray","pink"];
+		let r=parseInt(Math.random() *colors.length);
+		document.body.style.background=colors[r];
+	}
+	colorme();
+	setInterval(colorme, 5000);
+	</script>
+</center>
+</body>
+</html>
+
+
